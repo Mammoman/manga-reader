@@ -1,0 +1,36 @@
+.reader {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.chapter-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-container img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.page-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 300px;
+}
+
+.error {
+  color: red;
+  margin-bottom: 10px;
+}

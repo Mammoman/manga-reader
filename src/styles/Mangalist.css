@@ -1,0 +1,60 @@
+.manga-item {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.manga-image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.manga-details {
+  flex: 1;
+}
+
+.manga-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.manga-info {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.manga-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.manga-rating-stars {
+  color: gold;
+  margin-right: 5px;
+}
+
+.manga-rating-value {
+  font-weight: bold;
+}
+
+.manga-genres {
+  margin-top: 5px;
+}
+
+.manga-genre {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 2px 5px;
+  margin-right: 5px;
+  border-radius: 3px;
+  font-size: 0.8em;
+}
+
