@@ -24,7 +24,7 @@ const useSearch = () => {
       setSearchResults(response.data.data || []);
     } catch (error) {
       console.error('Error fetching manga:', error);
-      setError('An error occurred while fetching manga. Please try again.');
+      setError('An error occurred while fetching manga. Please.');
     } finally {
       setIsLoading(false);
     }
