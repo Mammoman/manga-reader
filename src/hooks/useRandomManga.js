@@ -23,7 +23,7 @@ const useRandomManga = (page = 1) => {
         setManga(response.data.data);
       } catch (error) {
         console.error('Error fetching random manga:', error);
-        setError('An error occurred while fetching manga. Please try again.');
+        setError(error.response?.data?.message || 'An error occurred while fetching manga. Please try again.');
       } finally {
         setIsLoading(false);
       }
