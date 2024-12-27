@@ -1,7 +1,7 @@
 import { useState, useCallback, useRef } from 'react';
 import axios from 'axios';
 
-const baseUrl = 'https://api.mangadex.org/manga';
+const baseUrl = 'https://api.mangadex.org';
 const RETRY_DELAY = 1000;
 const MAX_RETRIES = 3;
 const DEBOUNCE_DELAY = 300; 
