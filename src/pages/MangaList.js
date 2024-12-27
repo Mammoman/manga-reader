@@ -6,8 +6,6 @@ import '../styles/Mangalist.css';
 import useSearch from '../hooks/useSearch';
 import { Link } from 'react-router-dom';
 
-
-
 const MangaList = () => {
   const [mangaList, setMangaList] = useState([]);
   const [selectedManga, setSelectedManga] = useState(null);
